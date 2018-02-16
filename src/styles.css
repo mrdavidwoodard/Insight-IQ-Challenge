@@ -1,0 +1,14 @@
+#navbar {
+	font-family: 'Lato', 'Merriweather', 'Helvetica', 'Arial';
+	background-color: #222;
+}
+
+#navbar a  {
+	text-decoration: none;
+	color: #fff;  
+}
+
+#navbar li:hover  {
+	text-decoration: none;
+	background-color: blue;
+}

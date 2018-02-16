@@ -1,0 +1,11 @@
+#banner {
+    width: 600px;
+    height: 50px;
+    background-color: #42c5f4;
+    margin-left:-40px;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 40px;
+}
