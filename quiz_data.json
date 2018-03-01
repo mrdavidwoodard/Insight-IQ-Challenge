@@ -1,0 +1,73 @@
+[
+    { 
+        "question" : "How many KPIs are displayed on the BSC in Insight?", 
+        "answers" : [
+            { "id" : 0, "text" : "14" },
+            { "id" : 1, "text" : "10" },
+            { "id" : 2, "text" : "5" },
+            { "id" : 3, "text" : "7" }
+        ],
+        "correct" : 3 
+    },
+    { 
+        "question" : "How many metrics are displayed on the BSC in Insight?", 
+        "answers" : [
+            { "id" : 0, "text" : "5" },
+            { "id" : 1, "text" : "14" },
+            { "id" : 2, "text" : "7" },
+            { "id" : 3, "text" : "10" }
+        ],
+        "correct" : 1 
+    },
+    { 
+        "question" : "Where can you find your overall rank and rank of others?", 
+        "answers" : [
+            { "id" : 0, "text" : "Bottom of each metric" },
+            { "id" : 1, "text" : "Fleet Ranking Page" },
+            { "id" : 2, "text" : "On the Executive Page" },
+            { "id" : 3, "text" : "Cost Center Page" }
+        ],
+        "correct" : 1 
+    },
+    { 
+        "question" : "Which KPI is weighted the heaviest when calculating your rank?", 
+        "answers" : [
+            { "id" : 0, "text" : "Profitability" },
+            { "id" : 1, "text" : "Zero Defects" },
+            { "id" : 2, "text" : "Pure Performance" },
+            { "id" : 3, "text" : "Beyond Zero" },
+            { "id" : 4, "text" : "People"}
+        ],
+        "correct" : 4 
+    },
+    { 
+        "question" : "What are the different levels of the BSC?", 
+        "answers" : [
+            { "id" : 0, "text" : "Executive, Regional, Subregion, Park" },
+            { "id" : 1, "text" : "Executive Regional, Subregion, Cost Center" },
+            { "id" : 2, "text" : "Regional, Subregion, Cost Center, Park" },
+            { "id" : 3, "text" : "Subregion, Cost Center, Park" }
+        ],
+        "correct" : 1 
+    },
+    { 
+        "question" : "In the BSC, how do you find more details about each metric?", 
+        "answers" : [
+            { "id" : 0, "text" : "By hovering over the metric to show the 'i' icon" },
+            { "id" : 1, "text" : "By clicking on the BSC metric button" },
+            { "id" : 2, "text" : "By clicking on the blue envelope" },
+            { "id" : 3, "text" : "By navigating to the home page" }
+        ],
+        "correct" : 3 
+    },
+    { 
+        "question" : "What happens when you click on a metric in the BSC?", 
+        "answers" : [
+            { "id" : 0, "text" : "It takes you to the details page" },
+            { "id" : 1, "text" : "It shows an information icon" },
+            { "id" : 2, "text" : "It updates the data table below" },
+            { "id" : 3, "text" : "It takes you to the site page" }
+        ],
+        "correct" : 3 
+    }
+]
