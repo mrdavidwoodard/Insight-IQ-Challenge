@@ -69,5 +69,45 @@
             { "id" : 3, "text" : "It takes you to the site page" }
         ],
         "correct" : 3 
+    },
+    { 
+        "question" : "How many metrics in the BSC update on a daily basis?", 
+        "answers" : [
+            { "id" : 0, "text" : "9" },
+            { "id" : 1, "text" : "4" },
+            { "id" : 2, "text" : "7" },
+            { "id" : 3, "text" : "6" }
+        ],
+        "correct" : 0 
+    },
+    { 
+        "question" : "How often does the your fleet ranking update?", 
+        "answers" : [
+            { "id" : 0, "text" : "Daily" },
+            { "id" : 1, "text" : "In real time" },
+            { "id" : 2, "text" : "Weekly" },
+            { "id" : 3, "text" : "Hourly" }
+        ],
+        "correct" : 0 
+    },
+    { 
+        "question" : "What is the weighted order of KPIs to deterimine fleet ranking?", 
+        "answers" : [
+            { "id" : 0, "text" : "Beyond Zero, Zero Defects, Profitability, People, Performance" },
+            { "id" : 1, "text" : "Zero Defects, Profitability, Performance, People, Beyond Zero" },
+            { "id" : 2, "text" : "Performance, Profitability, Beyond Zero, Zero Defects, People" },
+            { "id" : 3, "text" : "Beyond Zero, Zero Defects, People, Performance, Profitability" }
+        ],
+        "correct" : 3 
+    },
+    { 
+        "question" : "What happens to your rank of a KPI if you have NA listed for a metric?", 
+        "answers" : [
+            { "id" : 0, "text" : "You move slightly higher in rank" },
+            { "id" : 1, "text" : "Your rank is not impacted" },
+            { "id" : 2, "text" : "you rank is calculated using the other metrics" },
+            { "id" : 3, "text" : "You move slightly lower in rank" }
+        ],
+        "correct" : 2 
     }
 ]
