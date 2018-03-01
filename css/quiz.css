@@ -20,7 +20,7 @@ body { background-color: #fff; padding: 20px; }
    text-transform: uppercase; 
    margin: 0px; 
    position: absolute; 
-   top: 25px; 
+   top: 35px; 
    left: 36px; 
 }
 #insightIQ h1 span { 
@@ -56,6 +56,14 @@ body { background-color: #fff; padding: 20px; }
    padding: 5px 15px; 
    border-radius: 2px; 
 }
+
+#insightIQ .btn a { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff; 
+    padding: 2px 10px;
+ }
 
 /* Progress */
 
