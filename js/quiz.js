@@ -10,29 +10,29 @@
 		$scope.percentage = 0;
 		
 		$http.get('quiz_data.json').then(function(quizData){
-			$scope.myQuestions = quizData.data;
-			$scope.totalQuestions = $scope.myQuestions.length;
+			$scope.quizQuestions = quizData.data;
+			$scope.totalQuestions = $scope.quizQuestions.length;
 		});
 		
 		// check answer that user clicked
 		$scope.selectAnswer = function(qIndex,aIndex){
 			
-			var questionState = $scope.myQuestions[qIndex].questionState;
+			var questionState = $scope.quizQuestions[qIndex].questionState;
 
 			if(questionState != 'answered'){	
-				$scope.myQuestions[qIndex].selectedAnswer = aIndex;
-				var correctAnswer = $scope.myQuestions[qIndex].correct;
+				$scope.quizQuestions[qIndex].selectedAnswer = aIndex;
+				var correctAnswer = $scope.quizQuestions[qIndex].correct;
 		
-				$scope.myQuestions[qIndex].correctAnswer = correctAnswer;
+				$scope.quizQuestions[qIndex].correctAnswer = correctAnswer;
 				
 				if( aIndex === correctAnswer ){
-					$scope.myQuestions[qIndex].correctness = 'correct';
+					$scope.quizQuestions[qIndex].correctness = 'correct';
 					$scope.score += 1;
 				} else {
-					$scope.myQuestions[qIndex].correctness = 'incorrect';
+					$scope.quizQuestions[qIndex].correctness = 'incorrect';
 				}
 				
-				$scope.myQuestions[qIndex].questionState = 'answered';		
+				$scope.quizQuestions[qIndex].questionState = 'answered';		
 		
 			}
 		
@@ -41,11 +41,11 @@
 		}
 
 		$scope.isSelected = function(qIndex,aIndex){
-			return $scope.myQuestions[qIndex].selectedAnswer === aIndex;
+			return $scope.quizQuestions[qIndex].selectedAnswer === aIndex;
 		}
 
 		$scope.isCorrect = function(qIndex,aIndex){
-			return $scope.myQuestions[qIndex].correctAnswer === aIndex;
+			return $scope.quizQuestions[qIndex].correctAnswer === aIndex;
 		}
 
 		$scope.selectContinue = function(){
