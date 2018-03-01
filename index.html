@@ -10,15 +10,18 @@
 	<body>
 
 		<div id="insightIQ" ng-controller="QuizController">
-			
-			<h1>Take the challenge: <span>Insight IQ</span></h1>
 
+			<div class="btn"><a href="http://vame-insight.vestas.com">Return to Insight</a></div>
+
+			<h1>Take the challenge: <span>Insight IQ</span></h1>
+			
 			<div class="progress">
 				<div
 					class="{{ ($index === activeQuestion) ? 'on' : 'off' }}
 					{{ (quizQuestion.questionState === 'answered') ? 'answered' : 'unanswered' }}
 					{{ (quizQuestion.correctness === 'correct') ? 'correct' : 'incorrect' }}"
-					ng-repeat="quizQuestion in quizQuestions"></div>
+					ng-repeat="quizQuestion in quizQuestions">
+				</div>
 			</div>
 
 			<div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active' }}">
