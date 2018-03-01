@@ -53,7 +53,7 @@
 		}
 
 		$scope.createShareLinks = function(percentage){
-			var url = 'http://insight.upwindengineering.com';
+			var url = 'http://vame-insight.vestas.com';
 			var emailLink = '<a class="btn email" href="mailto:?subject=Try to beat my IQ!&amp;body=I scored a '+percentage+'% on this Insight IQ Challenge. Try to beat my score at '+url+'">Email a friend</a>';
 			var newMarkup = emailLink;
 
