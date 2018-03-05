@@ -57,8 +57,8 @@
 			<div class="results {{ (totalQuestions === activeQuestion) ? 'active' : 'inactive' }}">
 				<h3>Your results:</h3>
 				<p>You scored {{percentage}}% by correctly answering {{score}} of the total {{totalQuestions}} questions.</p>
-				<p>Use the links below to challenge your friends.</p>
-				<div class="share" ng-bind-html="createShareLinks(percentage)">s</div>
+				<p>Use the link below to challenge your friends.</p>
+				<div class="share" ng-bind-html="createShareLinks(percentage)"></div>
 			</div>
 
 		</div>
